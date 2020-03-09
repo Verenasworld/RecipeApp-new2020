@@ -8,9 +8,9 @@ import {Ingredient} from '../../shared/ingredient.model';
 })
 export class ShoppingEditComponent implements OnInit {
   @ViewChild('nameInput') nameInputRef: ElementRef;
-  @ViewChild('amountInput') amountInputRef: ElementRef;
+  @ViewChild('amountInput' ) amountInputRef: ElementRef;
   @Output() ingredientAdded = new EventEmitter<Ingredient>();
-
+  //
   constructor() {
   }
 
@@ -24,3 +24,4 @@ export class ShoppingEditComponent implements OnInit {
     this.ingredientAdded.emit(newIngredient);
   }
 }
+//TODO: its working but with error look to breakpoints up
