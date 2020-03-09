@@ -1,4 +1,7 @@
 .container {
-  background-color: rgba(166, 204, 251, 0.45);
-  margin-top: 10vh ;
+  background-color: rgba(248, 249, 250, 0.45);
+  margin-top: 10vh;
+  border: solid 1px #96b5db;
+
+
 }
