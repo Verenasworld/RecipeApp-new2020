@@ -21,9 +21,8 @@ export class ShoppingEditComponent implements OnInit {
   onAddItem() {
     const ingName = this.nameInputRef.nativeElement.value;
     const ingAmount = this.amountInputRef.nativeElement.value;
-    const ingUnit = this.amountInputRef.nativeElement.value;
+    const ingUnit = this.unitInputRef.nativeElement.value;
     const newIngredient = new Ingredient(ingName, ingAmount, ingUnit);
     this.ingredientAdded.emit(newIngredient);
   }
 }
-//TODO: unit is not working
