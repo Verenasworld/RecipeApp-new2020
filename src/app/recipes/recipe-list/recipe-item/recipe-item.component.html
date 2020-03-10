@@ -5,7 +5,7 @@
 <div class="float-left">
     <h3 appBasicHighlight  class="list-group-item-heading">{{recipe.name}}</h3>
     <p class="list-group-item-text">{{recipe.description}}</p>
-    <div appBetterHighlight [defaultColor]="'rgb(210, 232, 255, 0.5)'" [highlightColor]="'rgb(210, 232, 255)'" class="date">{{dateToday|date}}</div>
+    <div [appBetterHighlight]="'rgb(210, 232, 255)'" [defaultColor]="'rgb(210, 232, 255, 0.5)'"  class="date">{{dateToday|date}}</div>
   </div>
   <span class="float-right">
         <img
