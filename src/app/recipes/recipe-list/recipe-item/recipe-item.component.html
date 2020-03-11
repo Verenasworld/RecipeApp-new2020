@@ -2,12 +2,12 @@
   href="#"
   class="list-group-item clearfix"
 (click)="onSelected()">
-<div class="float-left">
+<div class="pull-left">
     <h3 appBasicHighlight  class="list-group-item-heading">{{recipe.name}}</h3>
     <p class="list-group-item-text">{{recipe.description}}</p>
     <div [appBetterHighlight]="'rgb(210, 232, 255)'" defaultColor ="rgb(210, 232, 255, 0.5)"  class="date">{{dateToday|date}}</div>
   </div>
-  <span class="float-right">
+  <span class="pull-right">
         <img
           [src]="recipe.imagePath"
           alt="{{recipe.name}}"
