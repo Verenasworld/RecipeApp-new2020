@@ -14,4 +14,4 @@ export class DropdownDirective {
 // @Hostbinding binde ich an die Eigenschaft
 // des Elements in das die Direktive eingefügt wird.(class.open)
 
-// TODO:Appdropdown direketive no working open class dont exist on bootstrap
+
