@@ -11,12 +11,12 @@ export class RecipeItemComponent implements OnInit {
   dateToday: number = Date.now();
   @Input()recipe: Recipe;
 
-  constructor(private recipoeService: RecipeService) { }
+  constructor(private recipeService: RecipeService) { }
 
   ngOnInit() {
   }
   onSelected() {
-    this.recipoeService.recipeSelected.emit(this.recipe);
+    this.recipeService.recipeSelected.emit(this.recipe);
   }
 }
 
