@@ -12,3 +12,4 @@ export class AppComponent {
   this.loadedFeature = feature;
  }
 }
+// TODO : somewhere is a mistake that jumps from shopping list to recipes
