@@ -19,6 +19,11 @@ ingredientsChanged = new EventEmitter<Ingredient[]>();
     this.ingredientsChanged.emit(this.ingredients.slice());
 
   }
+  addIngredients(ingredients: Ingredient[]) {
+  for (const ingredient of ingredients) {
+    this.addIngredient(ingredient);
+  }
+  }
   constructor() { }
 }
 
