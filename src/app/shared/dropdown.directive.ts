@@ -15,3 +15,4 @@ export class DropdownDirective {
 // des Elements in das die Direktive eingefügt wird.(class.open)
 
 
+
