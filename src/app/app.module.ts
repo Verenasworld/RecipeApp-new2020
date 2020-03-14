@@ -12,6 +12,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import {BasicHighlightDirective} from './recipes/Recipe Direktiven/basic-highlight.directive';
 import { BetterHighlightDirective } from './recipes/Recipe Direktiven/better-highlight.directive';
 import {DropdownDirective} from './shared/dropdown.directive';
+import {ShoppingListService} from './shopping-list/shopping-list.service';
 
 
 
@@ -33,7 +34,7 @@ import {DropdownDirective} from './shared/dropdown.directive';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ShoppingListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
